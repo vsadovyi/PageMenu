@@ -341,7 +341,7 @@ public class CAPSPageMenu: UIViewController, UIScrollViewDelegate, UIGestureReco
             menuScrollView.layer.shadowRadius = menuShadowRadius
             menuScrollView.layer.shadowOpacity = menuShadowOpacity
             menuScrollView.layer.shadowOffset = CGSizeMake(0, menuShadowOffset)
-            menuScrollView.layer.masksToBounds = true
+            menuScrollView.layer.masksToBounds = false
         }
         //********************************
         
